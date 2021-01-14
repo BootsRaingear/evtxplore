@@ -1,0 +1,21 @@
+﻿<Window x:Class="evtxplore.DlgNewCase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:evtxplore"
+        mc:Ignorable="d"
+        Title="New Case" Height="335.977" Width="469.247">
+    <Grid Margin="0,0,3.8,5">
+        <TextBox x:Name="txtCasenum" HorizontalAlignment="Left" Height="24" Margin="121,16,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313"/>
+        <Label Content="Case #" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="105" HorizontalContentAlignment="Right" Height="27"/>
+        <TextBox x:Name="txtDBFolder" HorizontalAlignment="Left" Height="24" Margin="121,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285"/>
+        <Label Content="Project Directory" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="105" HorizontalContentAlignment="Right" Height="29"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" Width="105" HorizontalContentAlignment="Right" Height="27"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="410,52,0,0" VerticalAlignment="Top" Width="24" Click="Button_Click" Height="20"/>
+        <TextBox x:Name="txtNotes" HorizontalAlignment="Left" Height="158" Margin="121,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="338,249,0,0" VerticalAlignment="Top" Width="96" Height="32" Click="btnOK_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="214,249,0,0" VerticalAlignment="Top" Width="96" Height="32" Click="btnCancel_Click"/>
+
+    </Grid>
+</Window>
