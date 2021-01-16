@@ -11,6 +11,7 @@ namespace evtxread
     {
         Stream File;
 
+
         public EvtxStream()
         {
             File = null;
@@ -23,7 +24,7 @@ namespace evtxread
 
         public long Seek(long offset, SeekOrigin whence)
         {
-            return File.Seek(offset, whence);
+            return File.Seek(offset, whence);            
         }
 
         public long GetSize()

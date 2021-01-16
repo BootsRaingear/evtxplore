@@ -22,7 +22,7 @@
             <MenuItem Header="_Tools"/>
             <MenuItem Header="_Help"/>
         </Menu>
-        <TreeView Grid.Column="0" Margin="10,47,10,10" />
+        <TreeView Grid.Column="0" Margin="10,60,10,10" />
         <TabControl Grid.Column="1" ItemsSource="{Binding}" Margin="4,26,9.6,10">
             <TabControl.ItemTemplate>
                 <DataTemplate DataType="local:EvtxTab">
@@ -38,5 +38,6 @@
         <Button HorizontalAlignment="Left" Margin="31,26,0,0" VerticalAlignment="Top" Width="16" Height="16">
             <Image Source="Resources/Buttons/Save_16x.png"/>
         </Button>
+        <Button x:Name="btnEvtxReadTest" Content="EvtxRead Test" HorizontalAlignment="Left" Height="29" Margin="94,26,0,0" VerticalAlignment="Top" Width="82" Click="btnEvtxReadTest_Click"/>
     </Grid>
 </Window>

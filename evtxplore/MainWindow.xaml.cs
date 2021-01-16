@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Diagnostics.Eventing.Reader;
 using Microsoft.Win32;
 using WK.Libraries.BetterFolderBrowserNS;
+using evtxread;
 
 namespace evtxplore
 {
@@ -86,6 +87,12 @@ namespace evtxplore
             }
 
             Properties.Settings.Default.Save();
+        }
+
+        private void btnEvtxReadTest_Click(object sender, RoutedEventArgs e)
+        {
+            EvtxFile file = new EvtxFile(@"c:\temp\Logs\Windows PowerShell.evtx");
+
         }
     }
 }

@@ -42,7 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EvtxChunk.cs" />
-    <Compile Include="EvtxHeader.cs" />
+    <Compile Include="EvtxFragment.cs" />
+    <Compile Include="EvtxEventRecord.cs" />
     <Compile Include="EvtxFile.cs" />
     <Compile Include="EvtxStream.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

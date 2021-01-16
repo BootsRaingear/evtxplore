@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evtxplore", "evtxplore\evtxplore.csproj", "{D7EA175F-2C22-42F1-BB4E-657F1F036DBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24C7A263-572E-4070-8EC6-63CF98640FAA} = {24C7A263-572E-4070-8EC6-63CF98640FAA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evtxread", "evtxread\evtxread.csproj", "{24C7A263-572E-4070-8EC6-63CF98640FAA}"
 EndProject
